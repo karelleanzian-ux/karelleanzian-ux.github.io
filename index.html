@@ -1,0 +1,454 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#0b1020">
+  <meta name="description" content="Portfolio de Karelle Anzian, étudiante en informatique et intelligence artificielle à HESTIM School, Casablanca.">
+  <title>Karelle Anzian | Portfolio</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <div class="background-glow glow-one"></div>
+  <div class="background-glow glow-two"></div>
+
+  <header class="header" id="header">
+    <nav class="navbar container" aria-label="Navigation principale">
+      <a href="#accueil" class="logo">
+        K<span>.</span>A
+      </a>
+
+      <button class="menu-toggle" id="menu-toggle"
+        aria-label="Ouvrir le menu" aria-expanded="false"
+        aria-controls="nav-links">
+        <span></span><span></span><span></span>
+      </button>
+
+      <div class="nav-links" id="nav-links">
+        <a href="#accueil" class="nav-link active">Accueil</a>
+        <a href="#apropos" class="nav-link">À propos</a>
+        <a href="#competences" class="nav-link">Compétences</a>
+        <a href="#projets" class="nav-link">Projets</a>
+        <a href="#parcours" class="nav-link">Parcours</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </div>
+
+      <button class="theme-toggle" id="theme-toggle"
+        aria-label="Activer le thème clair" title="Changer de thème">
+        ☀
+      </button>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero container section" id="accueil">
+      <div class="hero-content reveal">
+        <div class="availability">
+          <span class="status-dot"></span>
+          Étudiante en informatique & IA
+        </div>
+
+        <p class="eyebrow">BONJOUR, JE SUIS</p>
+        <h1>Karelle <span class="gradient-text">Anzian.</span></h1>
+
+        <h2 class="hero-subtitle">
+          Je construis mon avenir dans
+          <span id="typing-text" class="gradient-text">l'informatique.</span>
+          <span class="typing-cursor">|</span>
+        </h2>
+
+        <p class="hero-description">
+          Étudiante en première année à HESTIM School, Casablanca,
+          je découvre le développement informatique et l'intelligence
+          artificielle. J'apprends, j'expérimente et je transforme
+          progressivement mes idées en projets concrets.
+        </p>
+
+        <div class="hero-actions">
+          <a href="#projets" class="btn btn-primary">
+            Découvrir mes projets <span>↗</span>
+          </a>
+          <a href="#contact" class="btn btn-outline">
+            Me contacter
+          </a>
+        </div>
+
+        <div class="social-links">
+          <a href="https://www.linkedin.com/in/karelle-anzian-a1b699442"
+             target="_blank" rel="noopener noreferrer"
+             aria-label="Mon profil LinkedIn">LinkedIn ↗</a>
+          <span class="social-separator">/</span>
+          <a href="https://github.com/" target="_blank"
+             rel="noopener noreferrer" aria-label="GitHub">
+            GitHub ↗
+          </a>
+        </div>
+      </div>
+
+      <div class="hero-visual reveal">
+        <div class="orbit orbit-one"></div>
+        <div class="orbit orbit-two"></div>
+
+        <div class="profile-card">
+          <div class="profile-card-top">
+            <span class="window-dot dot-red"></span>
+            <span class="window-dot dot-yellow"></span>
+            <span class="window-dot dot-green"></span>
+            <span class="profile-card-label">about_me.py</span>
+          </div>
+
+          <div class="code-content">
+            <p><span class="code-purple">class</span>
+              <span class="code-blue">Developer</span>:</p>
+            <p class="indent">
+              <span class="code-purple">def</span>
+              <span class="code-yellow">__init__</span>(self):
+            </p>
+            <p class="indent double-indent">
+              self.name =
+              <span class="code-green">"Karelle"</span>
+            </p>
+            <p class="indent double-indent">
+              self.field =
+              <span class="code-green">"Computer Science"</span>
+            </p>
+            <p class="indent double-indent">
+              self.interest =
+              <span class="code-green">"AI"</span>
+            </p>
+            <p class="indent double-indent">
+              self.status =
+              <span class="code-green">"Learning..."</span>
+            </p>
+            <br>
+            <p><span class="code-comment">
+              # Toujours apprendre et créer.
+            </span></p>
+            <p><span class="code-blue">print</span>(
+              <span class="code-green">"Hello, world!"</span>)
+            </p>
+          </div>
+
+          <div class="profile-card-footer">
+            <span>✦ Curiosité</span>
+            <span>✦ Créativité</span>
+            <span>✦ Innovation</span>
+          </div>
+        </div>
+
+        <div class="floating-tag tag-ai">
+          <span>✳</span> Artificial Intelligence
+        </div>
+        <div class="floating-tag tag-code">
+          <span>⌘</span> Creative Coding
+        </div>
+      </div>
+
+      <a class="scroll-indicator" href="#apropos">
+        <span class="scroll-line"></span>
+        Explorer
+      </a>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section container" id="apropos">
+      <div class="section-heading reveal">
+        <p class="eyebrow">QUI SUIS-JE ?</p>
+        <h2>Un esprit curieux, <span class="gradient-text">
+          tourné vers l'avenir.</span></h2>
+        <p>Chaque nouvelle connaissance est une occasion de progresser.</p>
+      </div>
+
+      <div class="about-grid">
+        <article class="about-card glass-card reveal">
+          <div class="card-icon">✦</div>
+          <h3>Ma présentation</h3>
+          <p>
+            Je suis Karelle Anzian, étudiante en première année
+            d'informatique et d'intelligence artificielle à HESTIM
+            School, à Casablanca. Je développe mes connaissances
+            techniques et ma capacité à résoudre des problèmes.
+          </p>
+          <p>
+            Mon objectif est de construire des bases solides en
+            programmation et de découvrir comment l'IA peut contribuer
+            à créer des solutions utiles.
+          </p>
+        </article>
+
+        <article class="about-card glass-card reveal">
+          <div class="card-icon">◎</div>
+          <h3>Ce qui me motive</h3>
+          <ul class="check-list">
+            <li>Apprendre de nouvelles technologies</li>
+            <li>Créer des projets personnels</li>
+            <li>Comprendre le fonctionnement des algorithmes</li>
+            <li>Explorer l'intelligence artificielle</li>
+            <li>Progresser grâce à la pratique</li>
+          </ul>
+        </article>
+      </div>
+
+      <div class="stats-grid reveal">
+        <div class="stat-item">
+          <span class="stat-number">01</span>
+          <span class="stat-label">Année d'études</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-number">∞</span>
+          <span class="stat-label">Curiosité</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-number">AI</span>
+          <span class="stat-label">Domaine d'intérêt</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="section container" id="competences">
+      <div class="section-heading reveal">
+        <p class="eyebrow">MON UNIVERS TECHNIQUE</p>
+        <h2>Compétences & <span class="gradient-text">apprentissage.</span></h2>
+        <p>Les domaines que je découvre et que je souhaite approfondir.</p>
+      </div>
+
+      <div class="skills-grid">
+        <article class="skill-card glass-card reveal">
+          <div class="skill-icon">&lt;/&gt;</div>
+          <h3>Développement web</h3>
+          <p>Création de pages web et découverte des interfaces utilisateur.</p>
+          <div class="tag-list">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+          </div>
+          <p class="skill-note">À personnaliser selon ton niveau réel.</p>
+        </article>
+
+        <article class="skill-card glass-card reveal">
+          <div class="skill-icon">⌘</div>
+          <h3>Programmation</h3>
+          <p>Apprentissage de la logique, des algorithmes et des structures de données.</p>
+          <div class="tag-list">
+            <span>Logique</span>
+            <span>Algorithmes</span>
+            <span>Code</span>
+          </div>
+          <p class="skill-note">Ajoute les langages que tu étudies.</p>
+        </article>
+
+        <article class="skill-card glass-card reveal">
+          <div class="skill-icon">✳</div>
+          <h3>Intelligence artificielle</h3>
+          <p>Découverte des concepts de l'IA et de ses applications possibles.</p>
+          <div class="tag-list">
+            <span>IA</span>
+            <span>Données</span>
+            <span>Innovation</span>
+          </div>
+          <p class="skill-note">Présente ici les sujets réellement étudiés.</p>
+        </article>
+
+        <article class="skill-card glass-card reveal">
+          <div class="skill-icon">◇</div>
+          <h3>Outils & méthodes</h3>
+          <p>Organisation du travail, recherche de solutions et gestion de projets.</p>
+          <div class="tag-list">
+            <span>Git</span>
+            <span>VS Code</span>
+            <span>Travail d'équipe</span>
+          </div>
+          <p class="skill-note">Conserve uniquement les outils que tu utilises.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="section container" id="projets">
+      <div class="section-heading reveal">
+        <p class="eyebrow">CE QUE JE CONSTRUIS</p>
+        <h2>Mes <span class="gradient-text">projets.</span></h2>
+        <p>Une sélection de mes réalisations et de mes expérimentations.</p>
+      </div>
+
+      <div class="project-filters reveal" role="group"
+        aria-label="Filtrer les projets">
+        <button class="filter-btn active" data-filter="all">Tous</button>
+        <button class="filter-btn" data-filter="web">Web</button>
+        <button class="filter-btn" data-filter="code">Programmation</button>
+        <button class="filter-btn" data-filter="ai">IA</button>
+      </div>
+
+      <div class="projects-grid">
+        <article class="project-card glass-card reveal" data-category="web">
+          <div class="project-preview preview-portfolio">
+            <span class="preview-symbol">K.</span>
+            <span class="preview-caption">MY DIGITAL SPACE</span>
+            <div class="preview-bars"><i></i><i></i><i></i></div>
+          </div>
+          <div class="project-body">
+            <div class="project-meta">
+              <span>01 / WEB</span>
+              <span class="project-status">En développement</span>
+            </div>
+            <h3>Portfolio personnel</h3>
+            <p>
+              Un site personnel pour présenter mon parcours, mes compétences
+              et mes futurs projets.
+            </p>
+            <div class="tag-list">
+              <span>HTML</span><span>CSS</span><span>JavaScript</span>
+            </div>
+            <a href="#contact" class="project-link">
+              En savoir plus <span>↗</span>
+            </a>
+          </div>
+        </article>
+
+        <article class="project-card glass-card reveal" data-category="code">
+          <div class="project-preview preview-code">
+            <span class="code-decoration">{ }</span>
+            <span class="preview-caption">THINK · CODE · SOLVE</span>
+            <div class="mini-terminal">
+              <span>&gt; run_project()</span>
+              <span class="terminal-success">Learning by doing...</span>
+            </div>
+          </div>
+          <div class="project-body">
+            <div class="project-meta">
+              <span>02 / CODE</span>
+              <span class="project-status">À réaliser</span>
+            </div>
+            <h3>Projet de programmation</h3>
+            <p>
+              Un espace pour présenter un exercice ou une application
+              réalisée pendant mon apprentissage de la programmation.
+            </p>
+            <div class="tag-list">
+              <span>Algorithmes</span><span>Programmation</span>
+            </div>
+            <a href="#contact" class="project-link">
+              En savoir plus <span>↗</span>
+            </a>
+          </div>
+        </article>
+
+        <article class="project-card glass-card reveal" data-category="ai">
+          <div class="project-preview preview-ai">
+            <div class="ai-orb"><span>AI</span></div>
+            <span class="preview-caption">EXPLORING INTELLIGENCE</span>
+          </div>
+          <div class="project-body">
+            <div class="project-meta">
+              <span>03 / IA</span>
+              <span class="project-status">À explorer</span>
+            </div>
+            <h3>Découverte de l'IA</h3>
+            <p>
+              Un futur mini-projet pour explorer un concept d'intelligence
+              artificielle et expliquer son fonctionnement.
+            </p>
+            <div class="tag-list">
+              <span>IA</span><span>Recherche</span><span>Innovation</span>
+            </div>
+            <a href="#contact" class="project-link">
+              En savoir plus <span>↗</span>
+            </a>
+          </div>
+        </article>
+      </div>
+
+      <p class="projects-note">
+        Les deuxième et troisième cartes sont des idées de projets, pas
+        des réalisations terminées. Remplace-les par tes vrais travaux
+        dès qu'ils sont disponibles.
+      </p>
+    </section>
+
+    <!-- JOURNEY -->
+    <section class="section container" id="parcours">
+      <div class="section-heading reveal">
+        <p class="eyebrow">MON PARCOURS</p>
+        <h2>Le début d'une <span class="gradient-text">aventure.</span></h2>
+        <p>Une étape à la fois, avec l'envie de toujours apprendre.</p>
+      </div>
+
+      <div class="timeline">
+        <article class="timeline-item reveal">
+          <div class="timeline-marker"></div>
+          <div class="timeline-date">ACTUELLEMENT</div>
+          <div class="timeline-content glass-card">
+            <span class="timeline-type">FORMATION</span>
+            <h3>HESTIM School — Casablanca</h3>
+            <p>Première année en informatique et intelligence artificielle.</p>
+            <p>
+              Développement de mes bases techniques et découverte des
+              domaines de l'informatique.
+            </p>
+          </div>
+        </article>
+
+        <article class="timeline-item reveal">
+          <div class="timeline-marker"></div>
+          <div class="timeline-date">PROCHAINE ÉTAPE</div>
+          <div class="timeline-content glass-card">
+            <span class="timeline-type">OBJECTIF</span>
+            <h3>Développer mes compétences</h3>
+            <p>
+              Réaliser des projets personnels, approfondir la programmation
+              et construire progressivement un portfolio plus complet.
+            </p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section container" id="contact">
+      <div class="contact-card reveal">
+        <div class="contact-decoration"></div>
+        <p class="eyebrow">TRAVAILLONS ENSEMBLE</p>
+        <h2>Une idée, une question ?<br>
+          <span class="gradient-text">Parlons-en.</span>
+        </h2>
+        <p>
+          Je suis ouverte aux échanges, aux conseils et aux occasions
+          d'apprendre avec d'autres passionnés de technologie.
+        </p>
+
+        <a class="btn btn-primary"
+           href="https://www.linkedin.com/in/karelle-anzian-a1b699442"
+           target="_blank" rel="noopener noreferrer">
+          Me retrouver sur LinkedIn ↗
+        </a>
+
+        <div class="contact-divider"></div>
+        <p class="contact-small">Tu peux également me retrouver ici :</p>
+        <div class="contact-links">
+          <a href="https://github.com/" target="_blank"
+             rel="noopener noreferrer">GitHub ↗</a>
+          <a href="#accueil">Retour en haut ↑</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer container">
+    <a href="#accueil" class="logo">K<span>.</span>A</a>
+    <p>Conçu avec curiosité et passion par Karelle Anzian.</p>
+    <p>© <span id="current-year"></span> — Tous droits réservés.</p>
+  </footer>
+
+  <button class="back-to-top" id="back-to-top"
+    aria-label="Retour en haut">↑</button>
+</body>
+</html>
